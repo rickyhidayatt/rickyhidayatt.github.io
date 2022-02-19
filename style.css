@@ -1,0 +1,286 @@
+body { background-color: #484853;
+    
+}
+.container {
+    width: auto;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    background-color: #2e2e33;
+    border-radius: 5px;
+    box-shadow: #950740 0px 0px 10px;
+}
+
+header ul {
+    float: right;
+    display: flex;
+    flex-direction: row;
+}
+
+header ul li {
+    display: inline-flex;
+    padding-left: 10px;
+}
+header ul li a {
+    text-decoration: none;
+    padding-right: 8px;
+    margin-right: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #dad2d2;
+}
+header ul li a:hover {
+    color: #c3073f;
+}
+
+.banner {
+    padding-top: 100px;
+    width: 100%;
+    display: flex; 
+    justify-content: space-between;
+
+}
+.teks h1 {
+    font-family: 'Kanit', sans-serif;
+    line-height: 1.5;
+    padding-bottom: 50px;
+    color: #dad2d2;
+    padding-left: 40px;
+    font-size: 50px;
+    text-shadow: #950740 0px 0px 10px;
+}
+
+.gambar img {
+    padding-right: 40px;
+    opacity: 0.8;
+    
+
+}
+.teks h1 span {
+    font-weight: 500;
+    color: #c3073f;
+    opacity: 0.8;
+    font-size: 40px;
+    
+}
+.teks p {
+    font-size: 16px;
+    font-family: 'Kanit', sans-serif;
+    color: #dad2d2;
+    padding-bottom: 30px;
+}
+
+/* Download Button custom */
+button {
+    background-color: #2e2e33;
+    border-color: #c3073f;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 20px;
+    margin-left: 20px;
+}
+button a   {
+    text-decoration: none;
+    color: white;
+}
+button a:hover {
+    color: #950740;
+}
+
+.grid {
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+    background-color: #4e4e50;
+    margin-top: 20px;
+    border-radius: 4px;
+}
+.grid-atas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+.grid h3 {
+    font-family: 'Kanit', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 20px;
+    color: #dad2d2;
+}
+.grid a {
+    display: flex;
+    justify-content: right;
+    text-decoration: none;
+    font-weight: 400;
+    color: #dad2d2;
+    font-size: 16px;
+    font-family: 'Kanit', sans-serif;
+}
+.grid a:hover {
+    color: #950740
+   
+}
+
+/* bagian Artikel 2 konten grid */
+.artikel {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    color: #dad2d2;
+    padding: 20px;
+    font-family: 'Kanit', sans-serif;
+    margin-bottom: 30px;
+}
+.isikonten {
+    padding: 20px;
+    opacity: 0.8;
+    background-color: #6f2232;
+    border-radius: 4px;
+}
+.isikonten a {
+    text-decoration: none;
+    color: #dad2d2;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: 'Kanit', sans-serif;
+}
+.tgl {
+    display: flex;
+    justify-content: left;
+    padding-right: 20px;
+
+}
+
+.tgl a {
+    text-decoration: none;
+    width: auto;
+    padding: 3px;
+    margin-left: 20px;
+    background-color: #161515;
+    border-radius: 5px;
+    font-family: 'Kanit', sans-serif;
+}
+/* halaman artikel bawah */
+article {
+    font-family: 'Kanit', sans-serif;
+    color: #dad2d2;
+}
+
+article h3 {
+    padding-left: 20px;
+}
+
+.isialt h2 a {
+    text-decoration: none;
+    color: #ddd6d6;
+    font-weight: 500;
+    font-size: 20px;
+    font-family: 'Kanit', sans-serif;
+    border: none;
+
+}
+.isialt h2 a:hover {
+    opacity: 1.1;
+    background-color: #4e4e50
+}
+
+.artikelbawah {
+    display: flex;
+    justify-content: space-between;
+    color: #dad2d2;
+    padding: 20px 0;
+    border-bottom: #dad2d2 1px solid;
+    font-family: 'Kanit', sans-serif;
+}
+.gambaralt img{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+.artikelbawah a {
+    text-decoration: none;
+    color: #dad2d2;
+    margin-left: 20px;
+    width: auto;
+    border: #950740 1px solid;
+    padding: 3px;
+    border-radius: 5px; 
+}
+.artikelbawah a:hover {
+    background-color: #950740;
+    opacity: 0.8;
+}
+
+.isialt {
+    margin-left: 10px;
+}
+footer {
+    background-color: #2e2e33;
+    padding: 5px 0;
+    margin-top: 100px;
+    color: #dad2d2;
+    font-family: 'Kanit', sans-serif;
+    background-color: #6f2232;
+    opacity: 0.8;
+}
+.socialmedia img {
+    padding: 10px;
+   
+}
+.copyright {
+    font-size: 16px;
+    font-family: 'Kanit', sans-serif;
+    color: #dad2d2;
+    text-align: center;
+}
+@media only screen and (max-width: 700px) {
+    .container {
+        width: auto;
+    }
+    header {
+        display: flex;
+        justify-content: center;
+        background-color: #6f2232;
+        opacity: 0.7;
+    }
+
+    .banner {
+        display: flex;
+        flex-direction: column;
+        flex-direction: column-reverse;
+        opacity: 0.9;
+    }
+    .gambar {
+        display: flex;
+        justify-content: center;
+    }
+    .grid {
+        display: flex; 
+    }
+    .artikel {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+    article {
+        display: flex;
+        flex-direction: column;
+    }
+    .artikelbawah {
+        display: flex;
+        flex-direction: column;
+        margin-right: 40px;
+        border-bottom: #dad2d2 1px solid;
+    }
+    .gambaralt img {
+        width: 100%;
+    } 
+}
